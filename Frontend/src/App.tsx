@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { Landing } from './components/LAnding';
-import { Room } from './components/Room';
+import { Landing } from './components/Landing';
+
 import './App.css'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
        <BrowserRouter>
     <Routes>
       <Route path="/" element={<Landing/>} />
-        <Route path="/room" element={<Room/>} />
+      
 
       
     </Routes>
